@@ -238,7 +238,7 @@ export default function Home() {
                 )}
                 
                 {!isLoading && !chatError && evaluationScores && (
-                  <div className="space-y-10 py-6">
+                  <div className="flex flex-row justify-around items-center py-6">
                     {metricDisplayConfig.map(metric => (
                        <div className="text-center" key={metric.key}>
                          <p className={cn("text-6xl md:text-7xl font-bold", metric.color)}>{getScoreDisplay(metric.key)}</p>
