@@ -196,7 +196,7 @@ export default function Home() {
               {ragSources.length > 0 ? (
                 <ul className="space-y-4">
                   {ragSources.map((source, index) => (
-                    <li key={source.id || `source-${index}`} className="p-4 bg-black/70 rounded-md border border-muted-foreground/30 relative">
+                    <li key={`source-${index}`} className="p-4 bg-black/70 rounded-md border border-muted-foreground/30 relative">
                       <div className="flex items-start">
                         <div className="flex-1">
                           <p className="font-semibold text-foreground">{source.document_name || "Unknown Document"}</p>
