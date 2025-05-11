@@ -220,7 +220,7 @@ export default function Home() {
           <div className="sticky top-8 h-fit">
             <Card className="bg-black/40">
               <CardHeader className="border-b border-muted-foreground/20">
-                <CardTitle><h2>SCORE</h2></CardTitle>
+                <CardTitle><h2>SCORES</h2></CardTitle>
               </CardHeader>
               <CardContent>
                 {isLoading && referenceAnswer.trim() && (
